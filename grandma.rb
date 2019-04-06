@@ -1,7 +1,7 @@
 # Write a speak_to_grandma method.
 
 def speak_to_grandma(i_say)
-   if "#{i_say}" == "#{i_say}".downcase || "#{i_say}".capitalize
+   if "#{i_say}" == ("#{i_say}".downcase || "#{i_say}".capitalize)
       "HUH?! SPEAK UP, SONNY!"
     elsif "#{i_say}" == "#{i_say}".upcase
         "NO, NOT SINCE 1938!"
